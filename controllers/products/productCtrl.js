@@ -1,6 +1,4 @@
 const expressAsyncHandler = require("express-async-handler");
-const Filter = require("bad-words");
-const fs = require("fs");
 const Product = require("../../models/product/Product");
 const validateMongodbId = require("../../utils/validateMongodb");
 const User = require("../../models/user/User");
